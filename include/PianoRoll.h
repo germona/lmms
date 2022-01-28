@@ -210,6 +210,7 @@ protected slots:
 	void keyChanged();
 	void quantizeNotes(QuantizeActions mode = QuantizeBoth);
 
+	void strumNotesDn();
 	void updateSemiToneMarkerMenu();
 
 	void changeNoteEditMode( int i );
